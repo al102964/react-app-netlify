@@ -29,10 +29,10 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, world!
 
-      - name: Use Node.js 14x
+      - name: Use Node.js 14.15.5
         uses: actions/setup-node@v1
         with:
-          node-version: 14x
+          node-version: 14.15.5
           
       - name: Install
         run: npm ci
