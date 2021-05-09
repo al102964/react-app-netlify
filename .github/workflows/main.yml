@@ -39,6 +39,9 @@ jobs:
       
       - name: Build
         run: npm run build
+      
+      - name: verify
+        run: pwd && ls
         
       - name: Publish
         uses: netlify/actions/build@master
